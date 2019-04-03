@@ -708,6 +708,7 @@ input, select, textarea {
 		cursor: default;
 		height: 6em;
 		left: 0;
+		font-size: 0.5em;
 		line-height: 8em;
 		position: absolute;
 		text-align: center;
