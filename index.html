@@ -6,30 +6,6 @@
 -->
 <html>
 	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-556451-1"></script>
-		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-556451-1');
-		</script>
-		<script>
-		/**
-		* Function that registers a click on an outbound link in Analytics.
-		* This function takes a valid URL string as an argument, and uses that URL string
-		* as the event label. Setting the transport method to 'beacon' lets the hit be sent
-		* using 'navigator.sendBeacon' in browser that support it.
-		*/
-		var getOutboundLink = function(url) {
-		gtag('event', 'click', {
-			'event_category': 'outbound',
-			'event_label': url,
-			'transport_type': 'beacon',
-			'event_callback': function(){document.location = url;}
-		});
-		}
-		</script>
 
 		<title>Sajeewa Dayaratne</title>
 		<meta charset="utf-8" />
@@ -49,12 +25,12 @@
 						<p>Technologist &nbsp;&bull;&nbsp; Engineer &nbsp;&bull;&nbsp; Amateur Photographer</p>
 						<nav>
 							<ul>
-								<li><a href="https://www.linkedin.com/in/sajeewad" onclick="getOutboundLink('https://www.linkedin.com/in/sajeewad'); return false;" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://www.slideshare.net/sajeewad" onclick="getOutboundLink('https://www.slideshare.net/sajeewad'); return false;" class="icon fa-slideshare"><span class="label">Slideshare</span></a></li>
-								<li><a href="https://twitter.com/sajeewa_d" onclick="getOutboundLink('https://twitter.com/sajeewa_d'); return false;" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/SajeewaD" onclick="getOutboundLink('https://github.com/SajeewaD'); return false;" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.flickr.com/photos/sajeewa/" onclick="getOutboundLink('https://www.flickr.com/photos/sajeewa/'); return false;" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
-								<li><a href="mailto:mail@sajeewa.info" onclick="getOutboundLink('mailto:mail@sajeewa.info'); return false;" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+								<li><a href="https://www.linkedin.com/in/sajeewad" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.slideshare.net/sajeewad"  class="icon fa-slideshare"><span class="label">Slideshare</span></a></li>
+								<li><a href="https://twitter.com/sajeewa_d"  class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://github.com/SajeewaD"  class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.flickr.com/photos/sajeewa/"  class="icon fa-flickr"><span class="label">Flickr</span></a></li>
+								<li><a href="mailto:mail@sajeewa.info"  class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 							</ul>
 						</nav>
 					</header>
